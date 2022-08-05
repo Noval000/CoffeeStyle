@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Document</title>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header_site">
+				<div class="header_logo"><img src="img/header_logo.png" alt=""></div>
+				<nav class="menu">
+					<ul class="menu_list">
+						<li class="Home"><a href="#!">Home</a></li>
+						<li class="Our Products"><a href="#!">Our Products</a></li>
+						<li class="Blog"><a href="#!">Blog</a></li>
+						<li class="About"><a href="#!">About</a></li>
+						<li class="Contact"><a href="#!">Contact</a></li>
+						<li class="Styleguide"><a href="#!">Styleguide</a></li>
+					</ul>
+				</nav>
+				<div class="buy_img">
+					<div class="btn"><button><img src="img/buy.png" alt=""></button></div>
+					<div class="cart">CART</div>
+					<div class="basket_counter">
+						<div class="text_basket">
+							<p>0</p>
+						</div>
+					</div>
+				</div>
+				<nav class="mobile_menu">
+					<div class="icon_mobile_menu" onclick="open_mobile_menu()">
+						<div class="close_mobile_menu" twoclick="close_mobile_menu()">
+							<div class="bar1" id="bar1"></div>
+							<div class="bar2" id="bar2"></div>
+							<div class="bar3" id="bar3"></div>
+						</div>
+					</div>
+					<ul class="menu_list_mobile" id="menu_list_mobile">
+						<li class="Home_mobile"><a href="">Home</a></li>
+						<li class="Our Products_mobile"><a href="">Our Products</a></li>
+						<li class="Blog_mobile"><a href="">Blog</a></li>
+						<li class="About_mobile"><a href="#">About</a></li>
+						<li class="Contact_mobile"><a href="">Contact</a></li>
+						<li class="Styleguide_mobile"><a href="#">Styleguide</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<div class="background">
+			<div class="container">
+				<div class="background_container">
+					<div class="coffee_mugs">
+						<p>Best place to buy design</p>
+						<h1>Coffee Mugs</h1>
+					</div>
+					<div class="text_most_versatile">
+						<p>The most versatile furniture system ever created. Designed to fit your life, made to move and grow.</p>
+						<button class="explore" onmouseover="clickButton()" onmouseout="back()" id="explore">
+							<span class="text_explore"><p>Explore Our Products</p></span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="block_story">
+				<div class="title_story">Even the all-powerful Pointing has no control<br> about the blind texts.</div>
+				<div class="subtitle__story">It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</div>
+				<button class="read_story">Read the full Story</button>
+			</div>
+		</div>
+		<div class="container">
+			<div class="block_Featured_Mugs">
+				<div class="name_block_featured_mugs">
+					<div class="line_before"></div>
+					<div class="title_Featured_Mugs">Featured Mugs</div>
+					<div class="line_after"></div>
+				</div>
+				<div class="block_card">
+					<div class="card_coffee">
+						<div class="img_card_coffee"><img src="img/Pink_Premium_Ceramic.png" alt=""></div>
+						<div class="name_coffee">Pink Premium Ceramic</div>
+						<div class="price_coffee">$ 99.00 USD</div>
+					</div>
+					<div class="card_coffee_1">
+						<div class="img_card_coffee_1"><img src="img/Golden_Designers_Mug.png" alt=""></div>
+						<div class="name_coffee">Golden Designers Mug</div>
+						<div class="price_golden_coffee">
+							<div class="sale_price_coffee">$50.00</div>
+							<div class="full_price_coffee">$ 69.00 USD</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="btn_up" id="btn_up" function='back_to_top'><a class="btn_up_site" href=""></a></div>
+		<div class="container">
+			<div class="block_more_products">
+				<div class="name_block_more_products">
+					<div class="line_before"></div>
+					<div class="title_more_products">More products</div>
+					<div class="line_after"></div>
+				</div>
+				<div class="block_card_more_products_one_line">
+					<div class="card_Red_Love_Cup">
+						<div class="img_Red_Love_Cup"><img src="img/Red_Love_Cup.png" alt=""></div>
+						<div class="name_">Red Love Cup</div>
+						<div class="price_Red_Love_Cup">
+							<div class="sale_price_coffee">$25.00</div>
+							<div class="full_price_coffee">$ 37.00 USD</div>
+						</div>
+					</div>
+					<div class="card_Black_Tea_Cup">
+						<div class="img_Black_Tea_Cup"><img src="img/Black_Tea_Cup.png" alt=""></div>
+						<div class="name_">Black Tea Cup</div>
+						<div class="price_Black_Tea_Cup">
+							<div class="sale_price_coffee">$15.00</div>
+							<div class="full_price_coffee">$ 29.00 USD</div>
+						</div>
+					</div>
+					<div class="card_BW_Essentials_Mug">
+						<div class="img_B&W_Essentials_Mug"><img src="img/B&W_Essentials_Mug.png" alt=""></div>
+						<div class="name_">B&W Essentials Mug</div>
+						<div class="price_BW_Essentials_Mug">$ 19.00 USD</div>
+					</div>
+				</div>
+				<div class="block_card_more_products_two_line">
+					<div class="card_Winter_Style_Mug">
+						<div class="img_Winter_Style_Mug"><img src="img/Winter_Style_Mug.png" alt=""></div>
+						<div class="name_">Winter Style Mug</div>
+						<div class="price_">$ 25.00 USD</div>
+					</div>
+					<div class="card_Ceramic_Tea">
+						<div class="img_Ceramic_Tea"><img src="img/Ceramic_Tea.png" alt=""></div>
+						<div class="name_">Ceramic Tea</div>
+						<div class="price_">$ 46.00 USD</div>
+					</div>
+					<div class="card_No_Handle_Bar_Cup">
+						<div class="img_B&W_Essentials_Mug"><img src="img/No_Handle_Bar_Cup.png" alt=""></div>
+						<div class="name_">No Handle Bar Cup</div>
+						<div class="price_">$ 34.00 USD</div>
+					</div>
+				</div>
+				<div class="block_card_more_products_three_line">
+					<div class="card_Winter_Style_Mug">
+						<div class="img_Winter_Style_Mug"><img src="img/Espresso_Cup_by_Mugs.co.png" alt=""></div>
+						<div class="name_">Espresso Cup by Mugs.co</div>
+						<div class="price_">$ 25.00 USD</div>
+					</div>
+					<div class="card_Winter_Style_Mug">
+						<div class="img_Ceramic_Tea"><img src="img/Pink_Premium_Ceramic_2.png" alt=""></div>
+						<div class="name_">Pink Premium Ceramic</div>
+						<div class="price_">$ 99.00 USD</div>
+					</div>
+					<div class="card_Winter_Style_Mug">
+						<div class="img_B&W_Essentials_Mug"><img src="img/Summer_Designer_Cup.png" alt=""></div>
+						<div class="name_">Summer Designer Cup</div>
+						<div class="price_">$ 29.00 USD</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+				<div class="name_block_more_products">
+					<div class="line_before"></div>
+					<div class="title_more_products">Buy 2 mugs and get a coffee magazine free</div>
+					<div class="line_after"></div>
+				</div>
+			<div class="block_buy_2_mugs">
+				<div class="three_image">
+					<div class="first_image"><img src="img/first_image.png" alt=""></div>
+					<div class="two_image">
+						<div class="second_image"><img src="img/second_image.png" alt=""></div>
+						<div class="third_image"><img src="img/third_image.png" alt=""></div>
+					</div>
+				</div>
+				<div class="block_premium_offer">
+					<div class="title_premium_offer">Premium Offer</div>
+					<div class="main_title_premium_offer">Get our Coffee<br> Magazine</div>
+					<div class="subtitle_premium_offer">The most versatile furniture system ever created. Designed to fit your life.</div>
+					<div class="btn_shopping"><button><span class="Start">Start shopping</span></button></div>
+				</div>
+			</div>
+		</div>
+		<div class="last_background"></div>
+		<div class="container">
+			<div class="name_block_more_products">
+				<div class="line_before"></div>
+				<div class="title_more_products">Behind the mugs, lifestyle stories</div>
+				<div class="line_after"></div>
+			</div>
+			<div class="behind">
+				<div class="card_news">
+					<div class="news_image_1"><img src="img/news_1.png" alt=""></div>
+					<div class="title_news">Health Check: why do I get a<br> headache when I haven’t had<br> my coffee?</div>
+					<div class="subtitle_news">It is a paradisematic country, in which<br> roasted parts of sentences fly into<br> your mouth.</div>
+					<div class="data_news">October 9, 2021</div>
+				</div>
+				<div class="card_news">
+					<div class="news_image_2"><img src="img/news_2.png" alt=""></div>
+					<div class="title_news">How long does a cup of coffee<br> keep you awake?</div>
+					<div class="subtitle_news">It is a paradisematic country, in which<br> roasted parts. Vel qui et ad voluptatem.</div>
+					<div class="data_news">October 9, 2021</div>
+				</div>
+				<div class="card_news">
+					<div class="news_image_3"><img src="img/news_3.png" alt=""></div>
+					<div class="title_news">Recent research suggests that<br> heavy coffee drinkers may reap<br> health benefits.</div>
+					<div class="subtitle_news">It is a paradisematic country, in which<br> roasted parts of sentences fly into<br> your mouth.</div>
+					<div class="data_news">October 9, 2021</div>
+				</div>
+			</div>
+		</div>
+		<div class="block_subscribe">
+			<div class="container">
+				<div class="name_block_subscribe">
+					<div class="line_before"></div>
+					<div class="title_block_name_subscribe">Sign up and get free coffee bags</div>
+					<div class="line_after"></div>
+				</div>
+				<div class="title_block_subscribe">Coffee Updates</div>
+				<form class="form_subscribe" action="#!" method="post">
+					<input class="block_mail" type="text" name="#!" value="nowikov00@mail.ru">
+					<input class="block_btn" type="submit" value="SUBSCRIBE">
+				</form>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="container">
+			<div class="block_footer">
+				<div class="block_inc">
+					<div class="title_inc"><img src="img/header_logo.png" alt=""></div>
+					<div class="subtitle_inc">Delivering the best coffee life since 1996.<br> From coffee geeks to the real ones.</div>
+					<div class="text_inc">CoffeeStyle Inc.</div>
+				</div>
+				<div class="footer_menu">
+					<ul class="list_footer_menu"><div class="main_footer_name_menu"><a href="#!">Menu</a></div>
+						<li><a href="#!">Home</a></li>
+						<li><a href="#!">Our Products</a></li>
+						<li><a href="#!">About</a></li>
+						<li><a href="#!">Contact</a></li>
+						<li><a href="#!">Styleguide</a></li>
+					</ul>
+				</div>
+				<div class="footer_follow_us">
+					<ul class="list_footer_menu"><div class="main_footer_follow_us"><a href="#!">Follow Us</a></div>
+						<li><a href="#!">Facebook</a></li>
+						<li><a href="#!">Instagram</a></li>
+						<li><a href="#!">Pinterest</a></li>
+						<li><a href="#!">Twitter</a></li>
+					</ul>
+				</div>
+				<div class="footer_contact_us">
+					<ul class="list_contact_us"><div class="main_footer_contact_us"><a href="#!">Contact Us</a></div>
+						<li><a href="#!"><div class="Always_happy">We’re Always Happy to Help</div></a></li>
+						<li><a href="#!"><div class="my_mail">Nowikov00@mail.ru</div></a></li>
+						<li><a href="#!"><div class="powered">Powered by NowikovAlexey</div></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+</body>
+</html>
